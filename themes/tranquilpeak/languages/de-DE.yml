@@ -3,6 +3,7 @@ date_format: "DD MMM YYYY"
 
 global:
     home: "Home"
+    resume: "Resume"
     categories: "Kategorien"
     category: "Kategorie"
     tags: "Tags"
@@ -57,6 +58,6 @@ post:
 
 author:
     # Deine Biografie (Markdown and HTML supported)
-    bio: ""
+    bio: "Lional"
     # Dein Job
-    job: ""
+    job: "Game Developer"
