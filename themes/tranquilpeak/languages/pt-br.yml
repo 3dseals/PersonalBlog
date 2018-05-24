@@ -3,7 +3,6 @@ date_format: "DD/MM/YYYY"
 
 global:
     home: "Início"
-    resume: "Resume"
     categories: "Categorias"
     category: "Category"
     tags: "Tags"
@@ -61,9 +60,13 @@ post:
     read_more: "Continuar leitura"
     go_to_website: "Ir para o site"
     comment_and_share: "Comentar e compartilhar"
+    gallery: "Galeria"
+    image:
+        one: "imagen"
+        other: "%d imagens"
 
 author:
     # Sua biografia (Markdown and HTML supported)
-    bio: "Lional"
+    bio: ""
     # Seu trabalho
-    job: "Game Developer"
+    job: ""

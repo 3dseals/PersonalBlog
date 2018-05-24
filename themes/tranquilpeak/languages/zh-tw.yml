@@ -3,7 +3,6 @@ date_format: "MMM DD, YYYY"
 
 global:
     home: "首頁"
-    resume: "Resume"
     categories: "分類"
     category: "分類"
     tags: "標籤"
@@ -61,9 +60,13 @@ post:
     read_more: "繼續閱讀"
     go_to_website: "前往"
     comment_and_share: "留言與分享"
+    gallery: "畫廊"
+    image:
+        one: "圖片"
+        other: "%d 圖片"
 
 author:
     # 你的個人簡介 (支援 Markdown 和 HTML 語法)
-    bio: "Lional"
+    bio: ""
     # 你的工作簡介
-    job: "游戏开发"
+    job: ""

@@ -3,7 +3,6 @@ date_format: "dddd، DD MMM YYYY"
 
 global:
     home: "خانه"
-    resume: "Resume"
     categories: "دسته‌بندی‌ها"
     tags: "برچسب‌ها"
     archives: "آرشیو مطالب"
@@ -59,6 +58,10 @@ post:
     read_more: "بیشتر بخوانید"
     go_to_website: "به سایت بروید"
     comment_and_share: "در مورد پست بحث کنید"
+    gallery: "گالری"
+    image:
+        one: "تصویر"
+        other: "%d تصورات"
 
 author:
     # Your biography (Markdown and HTML supported)
