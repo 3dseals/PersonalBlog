@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   // Build (environment : development)
   grunt.registerTask('build', [
     'clean:build',
-    'copy:dev',
+    'bower:dev',
     'syncAssets',
     'linkAssets',
     'replace:cssFancybox',

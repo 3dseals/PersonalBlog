@@ -3,6 +3,7 @@ date_format: "MMM DD, YYYY"
 
 global:
     home: "首页"
+    resume: "个人简历"
     categories: "分类"
     category: "分类"
     tags: "标签"
@@ -68,6 +69,6 @@ post:
 
 author:
     # 你的个人简介 (支持 Markdown 和 HTML 语法)
-    bio: ""
+    bio: "Lional"
     # 你的工作简介
-    job: ""
+    job: "游戏开发"

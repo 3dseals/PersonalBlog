@@ -3,6 +3,7 @@ date_format: "DD MMM YYYY"
 
 global:
     home: "Accueil"
+    resume: "Resume"
     categories: "Categories"
     tags: "Tags"
     archives: "Archive"
@@ -43,8 +44,8 @@ global:
         other: "{n} tags trouvés"
 
 pagination:
-    page: "page %d"
-    of: "sur %d"
+    page: "page"
+    of: "sur"
     newer_posts: "POSTS RÉCENTS"
     older_posts: "POSTS ANCIENTS"
     previous: "PRÉCÉDENT"
@@ -65,6 +66,6 @@ post:
 
 author:
     # Votre biographie (le Markdown et HTML sont supportés)
-  bio: ""
+    bio: "Lional"
     # Votre travail (poste)
-  job: ""
+    job: "Game Developer"

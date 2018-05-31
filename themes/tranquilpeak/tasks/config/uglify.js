@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     prod: {
       options: {
         mangle: {
-          reserved: [
+          except: [
             'jQuery',
             'fancybox'
           ]

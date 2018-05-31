@@ -1,6 +1,6 @@
 (function($) {
   'use strict';
-
+  
   // Run fancybox feature
 
   $(document).ready(function() {
@@ -9,15 +9,20 @@
      * @returns {void}
      */
     function fancyFox() {
-      var thumbs = false;
+      var arrows = true;
+      var thumbs = null;
 
       // disable navigation arrows and display thumbs on medium and large screens
       if ($(window).height() > 480) {
-        thumbs = true;
+        arrows = false;
+        thumbs = {
+          width: 70,
+          height: 70
+        };
       }
 
       $('.fancybox').fancybox({
-        buttons: [
+        buttons : [
           'fullScreen',
           'thumbs',
           'share',
@@ -26,14 +31,14 @@
           'close'
         ],
         thumbs: {
-          autoStart: thumbs,
+          autoStart: true,
           axis: 'x'
         }
       });
     }
 
     fancyFox();
-
+    
     $(window).smartresize(function() {
       fancyFox();
     });
