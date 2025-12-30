@@ -3,7 +3,6 @@ date_format: "YYYY/MM/DD"
 
 global:
     home: "ホーム"
-    resume: "Resume"
     categories: "カテゴリー"
     category: "カテゴリー"
     tags: "タグ"
@@ -73,6 +72,6 @@ post:
 
 author:
     # Your biography (Markdown and HTML supported)
-    bio: "Lional"
+    bio: ""
     # Your job
-    job: "Game Developer"
+    job: ""

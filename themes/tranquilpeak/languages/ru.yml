@@ -3,7 +3,6 @@ date_format: "DD MMMM YYYY"
 
 global:
     home: "Главная"
-    resume: "Resume"
     categories: "Разделы"
     category: "Раздел"
     tags: "Теги"
@@ -73,6 +72,6 @@ post:
 
 author:
     # Расскажите немного о себе (поддерживаются Markdown и HTML)
-    bio: "Lional"
+    bio: ""
     # Кратко о Вашей работе
-    job: "Game Developer"
+    job: ""

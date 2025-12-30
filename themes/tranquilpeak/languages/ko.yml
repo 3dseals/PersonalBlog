@@ -3,7 +3,6 @@ date_format: "YYYY/MM/DD"
 
 global:
     home: "Home"
-    resume: "Resume"
     categories: "카테고리"
     category: "카테고리"
     tags: "태그"
@@ -82,7 +81,7 @@ post:
 
 author:
     # Your biography (마크다운과 HTML이 지원됩니다.)
-    bio: "Lional"
+    bio: ""
     # Your job
-    job: "Game Developer"
+    job: ""
 

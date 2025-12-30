@@ -1,5 +1,5 @@
-# 在所有地方显示的 date 格式化
-date_format: "MMM DD, YYYY"
+# 在所有地方显示的日期格式
+date_format: "YYYY 年 M 月 D 日"
 
 global:
     home: "首页"
@@ -74,6 +74,6 @@ post:
 
 author:
     # 你的个人简介 (支持 Markdown 和 HTML 语法)
-    bio: "Lional"
+    bio: ""
     # 你的工作简介
-    job: "游戏开发"
+    job: ""

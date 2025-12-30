@@ -3,7 +3,6 @@ date_format: "dddd، DD MMM YYYY"
 
 global:
     home: "خانه"
-    resume: "Resume"
     categories: "دسته‌بندی‌ها"
     tags: "برچسب‌ها"
     archives: "آرشیو مطالب"
