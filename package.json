@@ -2,6 +2,12 @@
   "name": "personal-blog",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "server": "hexo server",
+    "clean": "hexo clean",
+    "build": "hexo generate",
+    "deploy": "hexo deploy"
+  },
   "hexo": {
     "version": "7.3.0"
   },
