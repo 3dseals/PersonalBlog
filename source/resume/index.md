@@ -621,12 +621,13 @@ comments: false
     <h1>王子亮</h1>
     <button class="pdf-download-btn" onclick="window.print()" title="点击后在打印对话框中选择另存为PDF">&#128196; 下载PDF</button>
   </div>
-  <div class="subtitle">研发技术总监 · 全栈架构师</div>
+  <div class="subtitle">高并发服务端架构 · 服务端研发</div>
   <div class="tag-list">
     <span>15年+研发经验</span>
-    <span>游戏 / 社交 / AI</span>
-    <span>团队管理</span>
-    <span>全栈架构</span>
+    <span>高并发服务端架构</span>
+    <span>Java Spring Cloud / Golang</span>
+    <span>多租户SaaS系统</span>
+    <span>团队管理 & 进度管控</span>
   </div>
 </div>
 
@@ -647,7 +648,7 @@ comments: false
   </div>
   <div class="info-item">
     <span class="label">期望职位</span>
-    <span class="value">研发类技术总监</span>
+    <span class="value">高并发服务端架构师 / 服务端架构设计研发</span>
   </div>
   <div class="info-item">
     <span class="label">期望薪资</span>
@@ -684,177 +685,47 @@ comments: false
   </div>
 </div>
 
+<br>
+
 <h2 class="section-title"><span class="icon">💡</span> 核心优势</h2>
 
 <div class="advantage-cards">
   <div class="advantage-card">
-    <h4>🎯 全栈技术覆盖</h4>
+    <h4>🚀 高并发服务端架构</h4>
     <ul>
-      <li><strong>客户端</strong>：Unity3D / Cocos2d-x / Cocos Creator / React.js</li>
-      <li><strong>服务端</strong>：Node.js / Go / Java / Skynet / C++</li>
-      <li><strong>数据层</strong>：MySQL / Redis / MongoDB / 高并发IO设计</li>
-      <li><strong>DevOps</strong>：Jenkins / Docker / Git / 自动化部署</li>
+      <li><strong>Java微服务 & SaaS</strong>：精通 Spring Boot / Spring Cloud (Nacos, Gateway, Feign)；设计多租户 SaaS 隔离架构与基于 <strong>Seata</strong> 的高并发分布式订单系统</li>
+      <li><strong>ET分布式游戏服务端</strong>：熟练运用 <strong>ET 框架 (C# / ECS)</strong> 研发高并发分布式微服务服务端，支持平滑横向扩展与集群部署</li>
+      <li><strong>Golang高性能组件</strong>：熟练掌握 Golang (Leaf / Gin / gRPC)，自研分布式网关、高性能协程池与 Redis 级联缓存组件</li>
+      <li><strong>消息队列与高吞吐</strong>：基于 RocketMQ / Kafka 实现高并发流量削峰填谷、异步解耦与千万级数据推送</li>
     </ul>
   </div>
   <div class="advantage-card">
-    <h4>🤝 团队协同能力</h4>
+    <h4>🤝 团队管理与项目进度管控</h4>
     <ul>
-      <li>主导多个从0到1的项目架构设计与团队搭建</li>
-      <li>建立规范化开发流程（OKR/Redmine/代码审查）</li>
-      <li>跨部门协作经验：策划、美术、运营、测试</li>
-      <li>AI辅助编程实践，提升团队研发效率</li>
+      <li>主导 5-20 人研发团队搭建与管理，建立规范化敏捷开发（Scrum/Kanban）与 WBS 任务拆解体系</li>
+      <li><strong>项目进度全流程管控</strong>：精准制定里程碑交付节点、进度风险预警与技术攻关机制，确保项目按期交付</li>
+      <li>推行 Code Review 与 CI/CD 自动化部署流水线，有效降低生产故障率与技术债务</li>
+      <li>推动 AI 工具（Cursor/Claude Code等）落地，建立 AI 协作规范，提升团队整体研发效能 <strong>50%+</strong></li>
     </ul>
   </div>
   <div class="advantage-card">
-    <h4>📊 业务成果</h4>
+    <h4>📊 商业成果 & 全栈覆盖</h4>
     <ul>
-      <li>累计参与项目流水超 <strong>1亿+</strong></li>
-      <li>主导多款游戏从研发到上线全流程</li>
-      <li>具备游戏运营思维，理解商业化设计</li>
-      <li>覆盖手游、直播游戏、H5小游戏等多品类</li>
-      <li>从大型项目支撑、需求规划、代码修复、团队协作、成本控制五维度全面评估</li>
+      <li>累计参与项目流水超 <strong>1亿+</strong>（主导核心项目流水超 5000 万）</li>
+      <li>具备游戏、直播互动、AI 社交、H5 小游戏等多品类高并发项目从0到1研发落地经验</li>
+      <li>兼具客户端（Unity3D/Cocos）与服务端全栈视野，能从技术成本、需求规划与运维全维度把控项目</li>
     </ul>
   </div>
   <div class="advantage-card">
     <h4>🤖 AI工具深度实践</h4>
     <ul>
-      <li>深度使用 <strong>Cursor / Claude Code / Codex / Antigravity</strong> 四大主流AI编程工具</li>
-      <li>推动AI Agent编程落地实践，实现团队研发效率 <strong>提升50%+</strong></li>
-      <li>建立AI辅助编程最佳实践规范，赋能5-20人开发团队高效协作</li>
+      <li>深度使用 <strong>Cursor / Claude Code / Codex / Antigravity</strong> 四大主流 AI 编程工具</li>
+      <li>推动 AI Agent 编程落地实践，建立团队 AI 辅助开发标准范式与最佳实践</li>
     </ul>
   </div>
 </div>
 
-<h2 class="section-title"><span class="icon">🛠️</span> 技术栈</h2>
-
-<div class="tech-section">
-
-<div class="tech-category">
-<h4>客户端开发</h4>
-<div class="skill-bar">
-  <span class="skill-name">Unity3D</span>
-  <div class="skill-track"><div class="skill-fill expert" style="width:95%"></div></div>
-  <span class="skill-level">精通</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">Cocos2d-x</span>
-  <div class="skill-track"><div class="skill-fill expert" style="width:95%"></div></div>
-  <span class="skill-level">精通</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">Cocos Creator</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:80%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">React.js</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:70%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-</div>
-
-<div class="tech-category">
-<h4>服务端开发</h4>
-<div class="skill-bar">
-  <span class="skill-name">Node.js</span>
-  <div class="skill-track"><div class="skill-fill expert" style="width:95%"></div></div>
-  <span class="skill-level">精通</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">Go</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:80%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">Java</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:80%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">Spring Cloud</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:78%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">Skynet/Lua</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:78%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">C++</span>
-  <div class="skill-track"><div class="skill-fill skilled" style="width:65%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-</div>
-
-<div class="tech-category">
-<h4>数据库 & 中间件</h4>
-<div class="skill-bar">
-  <span class="skill-name">MySQL</span>
-  <div class="skill-track"><div class="skill-fill expert" style="width:95%"></div></div>
-  <span class="skill-level">精通</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">Redis</span>
-  <div class="skill-track"><div class="skill-fill expert" style="width:95%"></div></div>
-  <span class="skill-level">精通</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">MongoDB</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:78%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">消息队列(MQ)</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:78%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-</div>
-
-<div class="tech-category">
-<h4>微服务 & 分布式</h4>
-<div class="skill-bar">
-  <span class="skill-name">Spring Cloud</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:80%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">XXL-Job</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:78%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">Seata</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:75%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">Nacos/Eureka</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:78%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-</div>
-
-<div class="tech-category">
-<h4>工具链 & DevOps</h4>
-<div class="skill-bar">
-  <span class="skill-name">Git/SVN</span>
-  <div class="skill-track"><div class="skill-fill expert" style="width:95%"></div></div>
-  <span class="skill-level">精通</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">Jenkins</span>
-  <div class="skill-track"><div class="skill-fill proficient" style="width:78%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-<div class="skill-bar">
-  <span class="skill-name">Docker</span>
-  <div class="skill-track"><div class="skill-fill skilled" style="width:65%"></div></div>
-  <span class="skill-level">熟练</span>
-</div>
-</div>
-
-</div>
+<br>
 
 <h2 class="section-title"><span class="icon">💼</span> 工作经历</h2>
 
@@ -863,42 +734,39 @@ comments: false
 <div class="timeline-item">
   <span class="period">2024.07 - 至今</span>
   <div class="company">四川循东科技有限公司</div>
-  <div class="position">技术负责人</div>
-  <div class="company-desc">专注于AI驱动的虚拟社交和数字娱乐领域的创新科技公司</div>
+  <div class="position">高并发服务端技术负责人 / 资深服务端架构师</div>
+  <div class="company-desc">专注于AI驱动的虚拟社交与数字娱乐领域，主打多租户高并发小游戏聚合平台及H5游戏矩阵</div>
   <ul class="duties">
-    <li>负责技术团队管理，建立规范化开发流程与管理机制</li>
-    <li>推动AI辅助编程实践（Cursor等），提升团队研发效率</li>
-    <li>主导产品技术架构设计与技术选型</li>
-    <li>负责小游戏平台架构设计与开发，涵盖多种H5小游戏、Block等休闲游戏品类</li>
-    <li>构建小游戏聚合分发平台，打通运营、数据分析与用户增长链路</li>
+    <li><strong>高并发SaaS架构与多租户隔离</strong>：负责高并发服务端架构设计与选型，基于 Spring Boot / Spring Cloud 搭建多租户 SaaS 服务体系，实现租户数据、权限与动态路由的高效隔离</li>
+    <li><strong>Seata分布式订单与消息队列</strong>：在多租户高并发充值、秒杀与订单结算场景引入 <strong>Seata (AT/TCC 模式)</strong> 分布式事务框架，保障高并发订单一致性；结合 RocketMQ / Redis 实现请求削峰与高吞吐结算</li>
+    <li><strong>团队管理与项目进度管控</strong>：负责研发团队日常管理，制定敏捷开发流程、WBS任务拆解与里程碑交付节点；建立了进度风险预警与技术攻关机制，确保项目节点按期保质完成</li>
+    <li><strong>AI赋能与流程优化</strong>：全面推动 AI 辅助编程实践（Cursor / Claude Code 等），建立团队代码规范与 CI/CD 交付标准，提升团队研发交付效率 50%+</li>
   </ul>
 </div>
 
 <div class="timeline-item">
   <span class="period">2023.03 - 2024.06</span>
   <div class="company">麓卓互动科技有限公司（成都分公司）</div>
-  <div class="position">服务端技术负责人</div>
-  <div class="company-desc">专注于AI社交和元宇宙领域，打造3D虚拟社交直播游戏应用《Party Yoo》</div>
+  <div class="position">高并发服务端技术负责人</div>
+  <div class="company-desc">专注于AI社交与元宇宙领域，打造3D虚拟社交直播游戏应用《Party Yoo》</div>
   <ul class="duties">
-    <li>负责AI社交产品服务端架构设计与开发</li>
-    <li>参与3D虚拟社交直播游戏应用的游戏模块开发，融合直播互动与游戏玩法</li>
-    <li>设计并实现直播间实时互动游戏系统，支持主播与观众的多人实时游戏对战</li>
-    <li>推行OKR绩效管理，优化团队协作流程</li>
-    <li>产品已在印尼等国际市场内测上线</li>
+    <li><strong>ET框架分布式服务端架构</strong>：负责《Party Yoo》服务端架构设计与研发，基于 <strong>ET 框架 (C# / ECS 架构)</strong> 构建高并发分布式微服务服务端，支持平滑横向扩展与集群部署</li>
+    <li><strong>实时游戏对战与直播互动</strong>：基于 ET 框架网络协议 (KCP/Protobuf/WebSocket) 研发直播间实时互动游戏与多人对战匹配系统，保障低延迟与房间状态同步</li>
+    <li><strong>消息队列与高可用保障</strong>：整合 Kafka / RocketMQ 消息队列应对直播间高并发事件削峰填谷；结合 Redis 分布式缓存实现百万级在线支撑</li>
+    <li><strong>团队管理与项目进度管控</strong>：负责服务端团队（10+人）管理，推行 OKR 管理与敏捷迭代，精准管控开发周期与风险节点，成功保障产品在印尼等海外市场内测上线</li>
   </ul>
 </div>
 
 <div class="timeline-item">
   <span class="period">2013.05 - 2023.02</span>
   <div class="company">成都黑骑士网络科技</div>
-  <div class="position">技术合伙人 / 技术总监</div>
-  <div class="company-desc">创业型手游公司，拥有多款上线游戏</div>
+  <div class="position">技术合伙人 / 服务端架构师 / 资深服务端研发工程师</div>
+  <div class="company-desc">创业型手游与高并发服务端研发公司，多款自研上线游戏流水累计超 5000 万</div>
   <ul class="duties">
-    <li>从0到1搭建技术团队，建立完整开发流程</li>
-    <li>主导多款游戏全栈开发（客户端+服务端）</li>
-    <li>负责技术架构设计、性能优化、线上运维</li>
-    <li>参与游戏运营策略制定，理解商业化设计</li>
-    <li><span class="highlight">核心项目流水累计超5000万</span></li>
+    <li><strong>团队组建与进度管控</strong>：从0到1搭建 15+人 技术团队，建立完整研发规范、Code Review 机制与全流程项目进度管控体系，把控产品全生命周期</li>
+    <li><strong>Golang高并发服务端与自研组件</strong>：负责核心 Golang 高并发服务端架构设计与关键组件研发，基于 Leaf 游戏框架及自研 org 架构，实现高并发分布式网关、Worker Pool 协程池组件、Redis 级联缓存与高并发限流组件</li>
+    <li><strong>全栈架构与高并发游戏研发</strong>：主导《Survive 活下去》、《无尽之界》等多款高并发分布式服务端（Golang / Node.js）及全栈研发，支撑全球同服与高并发长连接实时数据同步</li>
+    <li><strong>商业化成果</strong>：掌控整体技术成本、云服务器部署及高并发线上运维，<span class="highlight">核心项目累计流水超 5000 万</span></li>
   </ul>
 </div>
 
@@ -906,11 +774,9 @@ comments: false
   <span class="period">2011.12 - 2013.04</span>
   <div class="company">上海慕和网络</div>
   <div class="position">游戏开发工程师</div>
-  <div class="company-desc">手游公司，2013年被凤凰传媒收购，月流水达1500万</div>
+  <div class="company-desc">手游公司（月流水达1500万，后被收购）</div>
   <ul class="duties">
-    <li>参与多款SLG游戏开发</li>
-    <li>参与游戏引擎研发与平台SDK研发</li>
-    <li>见证公司从50人发展到400人的高速成长期</li>
+    <li>参与多款 SLG 游戏服务端与游戏引擎、支付 SDK 研发，见证公司从 50 人扩展至 400 人的高速成长期</li>
   </ul>
 </div>
 
@@ -918,11 +784,9 @@ comments: false
   <span class="period">2010.07 - 2011.11</span>
   <div class="company">TCL通讯</div>
   <div class="position">Android开发工程师</div>
-  <div class="company-desc">专注于Android手机研发，与阿尔卡特、黑莓等厂商合作</div>
+  <div class="company-desc">专注于Android手机研发</div>
   <ul class="duties">
-    <li>参与Android系统上层应用定制开发</li>
-    <li>负责Contacts、Launcher等核心模块开发</li>
-    <li>深入理解Android底层机制，为后续移动开发奠定基础</li>
+    <li>参与 Android 系统核心模块（Contacts、Launcher）定制开发，深入系统底层机制，为后续研发奠定扎实基础</li>
   </ul>
 </div>
 
@@ -934,149 +798,64 @@ comments: false
 
 <div class="project-card">
   <span class="project-year">2024 - 至今</span>
-  <div class="project-name">小游戏平台 & H5游戏矩阵</div>
+  <div class="project-name">高并发多租户 SaaS 小游戏聚合分发平台</div>
   <div class="project-meta">
-    <span class="type">小游戏平台 / H5游戏</span>
-    <span class="role">技术负责人</span>
+    <span class="type">高并发SaaS平台</span>
+    <span class="role">技术负责人 & 架构师</span>
   </div>
   <ul class="tech-list">
-    <li>构建小游戏聚合平台，支持多品类H5小游戏上架与分发</li>
-    <li>开发多款H5休闲小游戏，涵盖Block消除、益智解谜等热门品类</li>
-    <li>技术栈：Cocos Creator / React.js / Node.js</li>
-    <li>实现游戏数据埋点与用户行为分析系统</li>
-    <li>搭建统一的游戏资源管理与版本热更新机制</li>
+    <li><strong>高并发SaaS架构</strong>：基于 Java Spring Boot / Spring Cloud 打造多租户 SaaS 架构，支持多品类 H5 游戏快速接入与分发</li>
+    <li><strong>Seata高并发订单系统</strong>：在平台充值、秒杀与虚拟资产交易场景引入 <strong>Seata (AT/TCC 模式)</strong> 分布式事务框架，保障高并发多租户订单一致性</li>
+    <li><strong>租户隔离与消息队列</strong>：实现多租户动态数据源路由隔离与权限隔离；引入 RocketMQ 构建高吞吐数据埋点与实时分析管道</li>
+    <li><strong>项目进度管控</strong>：实施敏捷 WBS 任务拆解与里程碑交付管控，推行 AI 辅助开发，大幅缩短业务模块交付周期</li>
   </ul>
 </div>
 
 <div class="project-card">
-  <span class="project-year">2023</span>
-  <div class="project-name">Party Yoo</div>
+  <span class="project-year">2023 - 2024</span>
+  <div class="project-name">Party Yoo — 3D虚拟社交直播高并发微服务平台</div>
   <div class="project-meta">
-    <span class="type">3D虚拟社交直播游戏</span>
-    <span class="role">服务端技术负责人</span>
+    <span class="type">高并发分布式 / 实时社交</span>
+    <span class="role">高并发服务端技术负责人</span>
   </div>
   <ul class="tech-list">
-    <li>3D虚拟形象 + 直播互动 + 多人实时游戏融合玩法</li>
-    <li>服务端：Java Spring Cloud微服务架构</li>
-    <li>实时互动：WebSocket + 自研游戏房间管理系统</li>
-    <li>支持直播间内嵌多种小游戏，主播与观众实时对战</li>
-    <li>面向海外市场（印尼等东南亚地区），支持多语言与本地化</li>
+    <li><strong>ET框架分布式微服务架构</strong>：服务端基于 <strong>ET 框架 (C# / ECS)</strong> 构建，支持微服务化分布式部署与平滑横向扩展</li>
+    <li><strong>实时游戏对战与直播互动</strong>：基于 ET 框架底层网络 (KCP/Protobuf/WebSocket) 实现直播间内嵌游戏与低延迟实时多人对战匹配</li>
+    <li><strong>消息队列与高并发削峰</strong>：结合 Kafka / RocketMQ 进行高并发事件削峰填谷；使用 Redis 分布式缓存支撑百万级社交数据访问</li>
+    <li><strong>团队管理与进度管控</strong>：全面把控服务端研发进度节点，推行 OKR 绩效管理，成功保障产品在东南亚海外市场内测上线</li>
   </ul>
 </div>
 
 <div class="project-card">
-  <span class="project-year">2020</span>
-  <div class="project-name">无尽之界</div>
+  <span class="project-year">2020 - 2022</span>
+  <div class="project-name">高并发 Golang 游戏服务端及分布式组件库</div>
   <div class="project-meta">
-    <span class="type">挂机对战冒险游戏</span>
-    <span class="role">技术负责人</span>
+    <span class="type">Golang高并发 / 分布式架构</span>
+    <span class="role">服务端架构师 / 技术负责人</span>
   </div>
   <ul class="tech-list">
-    <li>客户端：Unity3D + 战斗模块 + 逐帧验证 + 热更新</li>
-    <li>服务端：Node.js分布式架构 + Redis高并发IO + RPC通信</li>
-    <li>特色：灯光Shader、网络协议优化、战斗服/挂机合成设计</li>
+    <li><strong>Golang高性能服务端架构</strong>：基于 Golang (Leaf 框架 / 孪生 org 架构 / Gin) 构建高性能分布式服务端，基于 gRPC/Protobuf 实现低延迟跨服务通信</li>
+    <li><strong>自研分布式网关组件</strong>：基于 Go 协程路由与 JWT 鉴权，实现高并发请求路由分发与动态负载均衡</li>
+    <li><strong>Worker Pool 协程池组件</strong>：自研通用协程池与任务调度器，有效降低高并发场景下的 Go 协程频繁创建与 GC 压力</li>
+    <li><strong>Redis级联缓存组件</strong>：设计 Redis + LocalCache 双层缓存体系，包含防击穿/防雪崩机制，支持 QPS 达数十万级</li>
+    <li><strong>高并发限流组件</strong>：基于 Golang 令牌桶/漏桶算法实现接口级与用户级的高并发防刷限流</li>
   </ul>
 </div>
 
 <div class="project-card">
-  <span class="project-year">2019</span>
-  <div class="project-name">三国诸侯纷争</div>
+  <span class="project-year">2010 - 2020</span>
+  <div class="project-name">自研上线游戏矩阵及早期技术积累</div>
   <div class="project-meta">
-    <span class="type">SLG策略游戏</span>
-    <span class="role">全栈开发</span>
-    <span class="revenue">💰 200万+/半年</span>
+    <span class="type">多款上线大作 / 核心基础库</span>
+    <span class="role">架构设计 & 全栈开发</span>
+    <span class="revenue">💰 累计流水 5000万+</span>
   </div>
   <ul class="tech-list">
-    <li>客户端：Unity3D + ILRuntime热更新</li>
-    <li>服务端：Java NIO + Protobuf协议</li>
-    <li>职责：多平台对接、支付系统、后台功能开发</li>
-  </ul>
-</div>
-
-<div class="project-card">
-  <span class="project-year">2017</span>
-  <div class="project-name">Survive 活下去</div>
-  <div class="project-meta">
-    <span class="type">丧尸生存游戏</span>
-    <span class="role">技术负责人</span>
-    <span class="revenue">💰 500万+/年</span>
-  </div>
-  <ul class="tech-list">
-    <li>首次采用JS作为业务逻辑语言</li>
-    <li>多服架构 + HTTP/Socket双通信</li>
-    <li>全球唯一服 + 消息推送系统</li>
-    <li>建立完整工具链与开发流程（Redmine工作流）</li>
-  </ul>
-</div>
-
-<div class="project-card">
-  <span class="project-year">2016</span>
-  <div class="project-name">沙巴克传奇</div>
-  <div class="project-meta">
-    <span class="type">传奇类RPG</span>
-    <span class="role">全栈开发</span>
-    <span class="revenue">💰 500万+/半年</span>
-  </div>
-  <ul class="tech-list">
-    <li>客户端：Cocos2d-Lua + 热更新 + 逐帧动画</li>
-    <li>服务端：C++ + Lua热更新（活动系统）</li>
-    <li>后台：PHP支付登录平台，解耦业务逻辑</li>
-  </ul>
-</div>
-
-<div class="project-card">
-  <span class="project-year">2014</span>
-  <div class="project-name">魔卡世纪</div>
-  <div class="project-meta">
-    <span class="type">即时对战卡牌</span>
-    <span class="role">客户端主程</span>
-  </div>
-  <ul class="tech-list">
-    <li>Cocos2d-x (C++) 早期版本</li>
-    <li>解决大量引擎底层问题：动画、灰度图、输入框、热更新</li>
-    <li>加拿大AppStore上线，首款原创游戏</li>
-  </ul>
-</div>
-
-<div class="project-card">
-  <span class="project-year">2013</span>
-  <div class="project-name">Ejecta-X 引擎</div>
-  <div class="project-meta">
-    <span class="type">跨平台游戏引擎</span>
-    <span class="role">核心开发</span>
-  </div>
-  <ul class="tech-list">
-    <li>基于Ejecta原理，用C++重写支持Android</li>
-    <li>H5代码绑定到C++，通过OpenGL渲染Canvas</li>
-    <li>支持Chrome调试后直接移植到移动端</li>
-  </ul>
-</div>
-
-<div class="project-card">
-  <span class="project-year">2012</span>
-  <div class="project-name">支付中心SDK平台</div>
-  <div class="project-meta">
-    <span class="type">SDK聚合平台</span>
-    <span class="role">架构设计 & 核心开发</span>
-  </div>
-  <ul class="tech-list">
-    <li>支持100+款游戏接入</li>
-    <li>统一管理支付、分享、广告接口</li>
-    <li>多人协作完成市面主流SDK集成</li>
-  </ul>
-</div>
-
-<div class="project-card">
-  <span class="project-year">2010</span>
-  <div class="project-name">阿尔卡特 & 黑莓手机研发</div>
-  <div class="project-meta">
-    <span class="type">Android手机定制开发</span>
-    <span class="role">核心模块开发</span>
-  </div>
-  <ul class="tech-list">
-    <li>负责Launcher桌面模块开发，定制化主屏交互体验</li>
-    <li>负责Contacts联系人模块开发，实现通讯录核心功能</li>
-    <li>深入Android系统底层，积累扎实的移动端开发基础</li>
+    <li><strong>《Survive 活下去》(2017-2020)</strong>：分布式 Node.js/Golang + Redis 高并发 IO 架构，支持全球同服与消息推送（年流水 500万+）</li>
+    <li><strong>《三国诸侯纷争》(2019)</strong>：Unity3D + Java NIO / Protobuf 高并发 SLG 策略游戏（半年流水 200万+）</li>
+    <li><strong>《沙巴克传奇》(2016)</strong>：Cocos2d-Lua + C++/Lua 服务端，PHP 支付与账户平台（半年流水 500万+）</li>
+    <li><strong>支付中心 SDK 聚合平台 (2012)</strong>：架构设计与核心开发，支持 100+ 款游戏接入统一支付与广告接口</li>
+    <li><strong>引擎与系统研发 (2010-2013)</strong>：Ejecta-X 跨平台 H5 引擎研发；TCL Android 手机系统核心模块开发</li>
   </ul>
 </div>
 
@@ -1086,26 +865,32 @@ comments: false
 
 <table class="tech-summary-table">
 <thead>
-<tr><th>领域</th><th>技术栈</th></tr>
+<tr><th>领域</th><th>技术栈 & 架构范式</th></tr>
 </thead>
 <tbody>
-<tr><td>游戏引擎</td><td>Unity3D / Cocos2d-x / Cocos2d-Lua / Cocos Creator</td></tr>
-<tr><td>服务端框架</td><td>Skynet / Pinus / ThinkJS / Go / Spring Cloud</td></tr>
-<tr><td>微服务组件</td><td>Nacos / Gateway / Feign / XXL-Job / Seata</td></tr>
-<tr><td>消息队列</td><td>RabbitMQ / Kafka / RocketMQ</td></tr>
-<tr><td>Web开发</td><td>React.js / Node.js / PHP / HTML5</td></tr>
-<tr><td>数据库</td><td>MySQL / Redis / MongoDB / Memcached</td></tr>
-<tr><td>协议 & 通信</td><td>Protobuf / WebSocket / HTTP / RPC</td></tr>
-<tr><td>工具链</td><td>Webpack / Gulp / Python脚本</td></tr>
-<tr><td>DevOps</td><td>Git / SVN / Jenkins / Redmine / Doxygen</td></tr>
-<tr><td>平台对接</td><td>AppStore / Google Play / 微信 / 微博 / 各类SDK</td></tr>
+<tr><td>高并发服务端框架</td><td>Java (Spring Boot / Spring Cloud) / ET框架 (C# / ECS) / Golang (Leaf / org框架 / Gin) / Node.js / Skynet</td></tr>
+<tr><td>微服务 & SaaS 组件</td><td>Nacos / Spring Cloud Gateway / Feign / Sentinel / XXL-Job / 多租户 SaaS 隔离架构</td></tr>
+<tr><td>分布式事务 & 消息队列</td><td>Seata (AT/TCC 模式) / RocketMQ / Kafka / RabbitMQ</td></tr>
+<tr><td>Golang 高并发组件</td><td>自研分布式网关 / Worker Pool 协程池 / Redis 级联缓存 / 令牌桶漏桶限流组件</td></tr>
+<tr><td>数据库 & 存储缓存</td><td>MySQL (多租户隔离/分库分表) / Redis (分布式锁/缓存级联) / MongoDB / Memcached</td></tr>
+<tr><td>网络协议 & 实时通信</td><td>Protobuf / gRPC / Netty / WebSocket / HTTP / RPC</td></tr>
+<tr><td>团队管理 & 项目管控</td><td>敏捷开发 (Scrum/Kanban) / WBS 任务拆解 / OKR/KPI / 里程碑交付与进度风险管控 / AI 赋能</td></tr>
+<tr><td>客户端 & 全栈开发</td><td>Unity3D / Cocos2d-x / Cocos Creator / React.js / HTML5</td></tr>
+<tr><td>DevOps & 工具链</td><td>Docker / Jenkins / Git / SVN / Redmine / Webpack</td></tr>
 </tbody>
 </table>
+
+<br>
+<br>
+<br>
 
 <div class="thanks-section">
   <h2 style="color: #1e3a5f; margin-bottom: 16px;">🙏 致谢</h2>
   <p>感谢您花时间阅读我的简历。</p>
-  <p>15年+的技术积累让我具备了从客户端到服务端、从架构设计到团队管理的全栈能力。我热爱技术，享受解决复杂问题的过程，也乐于带领团队一起成长。</p>
+  <p>15年+的技术积累与团队管理经验，让我具备了高并发服务端架构设计、微服务与分布式组件研发以及项目进度全流程管控的深厚能力。我热爱技术，享受解决高并发与复杂系统难题的过程，也乐于带领团队高效成长。</p>
   <p>期待能有机会与您共事，共同创造价值。</p>
   <div class="signature">— 王子亮</div>
 </div>
+
+<br>
+<br>
