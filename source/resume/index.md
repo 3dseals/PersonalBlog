@@ -41,6 +41,7 @@ comments: false
 
 /* ========== 打印/PDF导出样式 ========== */
 @media print {
+  /* 隐藏tranquilpeak主题导航与装饰元素 */
   #sidebar, .sidebar,
   #header, header,
   #bottom-bar, .post-bottom-bar,
@@ -87,7 +88,7 @@ comments: false
     padding: 30px 20px !important;
   }
 
-  .timeline-item, .project-card, .advantage-card, .faq-card {
+  .timeline-item, .project-card, .advantage-card {
     break-inside: avoid;
     page-break-inside: avoid;
   }
@@ -113,7 +114,7 @@ comments: false
 .resume-header {
   text-align: center;
   padding: 40px 30px;
-  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #312e81 100%);
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
   border-radius: 16px;
   margin-bottom: 32px;
   position: relative;
@@ -126,7 +127,7 @@ comments: false
   left: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(125,211,252,0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
   animation: headerGlow 8s ease-in-out infinite;
 }
 @keyframes headerGlow {
@@ -143,12 +144,11 @@ comments: false
   border: none !important;
 }
 .resume-header .subtitle {
-  color: rgba(255,255,255,0.85);
-  font-size: 1.1em;
+  color: rgba(255,255,255,0.75);
+  font-size: 1.05em;
   letter-spacing: 2px;
   position: relative;
   z-index: 1;
-  font-weight: 500;
 }
 .resume-header .tag-list {
   margin-top: 18px;
@@ -164,7 +164,7 @@ comments: false
   font-size: 0.85em;
   margin: 4px 6px;
   backdrop-filter: blur(4px);
-  border: 1px solid rgba(125,211,252,0.25);
+  border: 1px solid rgba(125,211,252,0.2);
 }
 
 /* 通用Section标题 */
@@ -173,9 +173,9 @@ comments: false
   align-items: center;
   gap: 10px;
   font-size: 1.5em !important;
-  color: #1e1b4b !important;
+  color: #1e3a5f !important;
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, #6366f1, #06b6d4, transparent) 1;
+  border-image: linear-gradient(90deg, #3b82f6, #06b6d4, transparent) 1;
   padding-bottom: 10px;
   margin: 40px 0 24px 0 !important;
 }
@@ -197,12 +197,12 @@ comments: false
   padding: 14px 18px;
   background: linear-gradient(135deg, #f8fafc, #f1f5f9);
   border-radius: 10px;
-  border-left: 3px solid #6366f1;
+  border-left: 3px solid #3b82f6;
   transition: all 0.3s ease;
 }
 .info-item:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(99,102,241,0.12);
+  box-shadow: 0 4px 12px rgba(59,130,246,0.12);
 }
 .info-item .label {
   font-size: 0.85em;
@@ -214,7 +214,7 @@ comments: false
   color: #1e293b;
 }
 .info-item .value a {
-  color: #6366f1;
+  color: #3b82f6;
   text-decoration: none;
 }
 .info-item .value a:hover {
@@ -239,8 +239,8 @@ comments: false
   transition: all 0.3s ease;
 }
 .contact-item:hover {
-  border-color: #6366f1;
-  box-shadow: 0 2px 8px rgba(99,102,241,0.1);
+  border-color: #3b82f6;
+  box-shadow: 0 2px 8px rgba(59,130,246,0.1);
 }
 .contact-item .contact-icon {
   font-size: 1.4em;
@@ -249,7 +249,7 @@ comments: false
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
   border-radius: 8px;
 }
 .contact-item .contact-text {
@@ -257,10 +257,9 @@ comments: false
   font-size: 0.95em;
 }
 .contact-item .contact-text a {
-  color: #6366f1;
+  color: #3b82f6;
   text-decoration: none;
 }
-
 
 /* 核心优势卡片 */
 .advantage-cards {
@@ -286,10 +285,10 @@ comments: false
   right: 0;
   height: 3px;
 }
-.advantage-card:nth-child(1)::before { background: linear-gradient(90deg, #6366f1, #06b6d4); }
+.advantage-card:nth-child(1)::before { background: linear-gradient(90deg, #3b82f6, #06b6d4); }
 .advantage-card:nth-child(2)::before { background: linear-gradient(90deg, #8b5cf6, #ec4899); }
-.advantage-card:nth-child(3)::before { background: linear-gradient(90deg, #10b981, #06b6d4); }
-.advantage-card:nth-child(4)::before { background: linear-gradient(90deg, #f59e0b, #ef4444); }
+.advantage-card:nth-child(3)::before { background: linear-gradient(90deg, #f59e0b, #ef4444); }
+.advantage-card:nth-child(4)::before { background: linear-gradient(90deg, #10b981, #06b6d4); }
 .advantage-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(0,0,0,0.08);
@@ -315,8 +314,58 @@ comments: false
   content: '▸';
   position: absolute;
   left: 0;
-  color: #6366f1;
+  color: #3b82f6;
   font-weight: bold;
+}
+
+/* 技术栈区域 */
+.tech-section {
+  margin-bottom: 28px;
+}
+.tech-category {
+  margin-bottom: 24px;
+}
+.tech-category h4 {
+  color: #334155 !important;
+  font-size: 1em;
+  margin-bottom: 12px !important;
+  padding-left: 12px;
+  border-left: 3px solid #3b82f6;
+}
+.skill-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 12px;
+}
+.skill-name {
+  min-width: 120px;
+  font-size: 0.9em;
+  color: #475569;
+  font-weight: 500;
+}
+.skill-track {
+  flex: 1;
+  height: 22px;
+  background: #f1f5f9;
+  border-radius: 11px;
+  overflow: hidden;
+  position: relative;
+}
+.skill-fill {
+  height: 100%;
+  border-radius: 11px;
+  transition: width 1.5s ease;
+  position: relative;
+}
+.skill-fill.expert { background: linear-gradient(90deg, #3b82f6, #06b6d4); }
+.skill-fill.proficient { background: linear-gradient(90deg, #8b5cf6, #a78bfa); }
+.skill-fill.skilled { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+.skill-level {
+  font-size: 0.78em;
+  color: #94a3b8;
+  min-width: 36px;
+  text-align: right;
 }
 
 /* 工作经历时间线 */
@@ -331,7 +380,7 @@ comments: false
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(180deg, #6366f1, #06b6d4, #8b5cf6);
+  background: linear-gradient(180deg, #3b82f6, #06b6d4, #8b5cf6);
 }
 .timeline-item {
   position: relative;
@@ -344,7 +393,7 @@ comments: false
 }
 .timeline-item:hover {
   box-shadow: 0 4px 16px rgba(0,0,0,0.06);
-  border-color: #a5b4fc;
+  border-color: #93c5fd;
 }
 .timeline-item::before {
   content: '';
@@ -353,14 +402,14 @@ comments: false
   top: 28px;
   width: 12px;
   height: 12px;
-  background: #6366f1;
+  background: #3b82f6;
   border-radius: 50%;
-  border: 3px solid #e0e7ff;
+  border: 3px solid #dbeafe;
   z-index: 1;
 }
 .timeline-item .period {
   display: inline-block;
-  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
   color: #fff;
   padding: 4px 14px;
   border-radius: 20px;
@@ -374,7 +423,7 @@ comments: false
   margin: 6px 0;
 }
 .timeline-item .position {
-  color: #6366f1;
+  color: #3b82f6;
   font-weight: 600;
   font-size: 0.95em;
   margin-bottom: 8px;
@@ -407,6 +456,10 @@ comments: false
   font-size: 0.7em;
   top: 7px;
 }
+.timeline-item .highlight {
+  color: #ea580c !important;
+  font-weight: 600;
+}
 
 /* 项目经历卡片 */
 .project-grid {
@@ -424,20 +477,16 @@ comments: false
   position: relative;
   overflow: hidden;
 }
-.project-card.featured {
-  border: 2px solid #818cf8;
-  background: linear-gradient(180deg, #ffffff 0%, #faf5ff 100%);
-}
 .project-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(99,102,241,0.12);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
 }
 .project-card .project-year {
   position: absolute;
   top: 16px;
   right: 16px;
-  background: linear-gradient(135deg, #e0e7ff, #c7d2fe);
-  color: #3730a3;
+  background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+  color: #475569;
   padding: 3px 12px;
   border-radius: 12px;
   font-size: 0.8em;
@@ -448,14 +497,6 @@ comments: false
   font-weight: 700;
   color: #1e293b;
   margin-bottom: 6px;
-  padding-right: 80px;
-}
-.project-card .project-name a {
-  color: #4f46e5;
-  text-decoration: none;
-}
-.project-card .project-name a:hover {
-  text-decoration: underline;
 }
 .project-card .project-meta {
   display: flex;
@@ -471,36 +512,55 @@ comments: false
   font-weight: 500;
 }
 .project-card .project-meta .type {
-  background: #eef2ff;
-  color: #4f46e5;
+  background: #eff6ff;
+  color: #2563eb;
 }
 .project-card .project-meta .role {
   background: #f0fdf4;
   color: #16a34a;
 }
-.project-card .project-meta .highlight-tag {
-  background: #fef3c7;
-  color: #d97706;
+.project-card .project-meta .revenue {
+  background: #fff7ed;
+  color: #ea580c;
 }
 .project-card .tech-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.project-card .tech-list li {
+.project-card .tech-list > li {
   padding: 4px 0 4px 16px;
   color: #475569;
   font-size: 0.88em;
   position: relative;
 }
-.project-card .tech-list li::before {
+.project-card .tech-list > li::before {
   content: '›';
   position: absolute;
   left: 2px;
-  color: #6366f1;
+  color: #3b82f6;
   font-weight: bold;
   font-size: 1.2em;
   top: 2px;
+}
+.project-card .tech-list ul {
+  list-style: none;
+  padding: 2px 0 4px 8px;
+  margin: 0;
+}
+.project-card .tech-list ul li {
+  padding: 2px 0 2px 14px;
+  color: #64748b;
+  font-size: 0.96em;
+  position: relative;
+}
+.project-card .tech-list ul li::before {
+  content: '•';
+  position: absolute;
+  left: 2px;
+  color: #06b6d4;
+  font-size: 0.9em;
+  top: 1px;
 }
 
 /* 技术总结表格 */
@@ -514,7 +574,7 @@ comments: false
   margin-bottom: 24px;
 }
 .tech-summary-table thead th {
-  background: linear-gradient(135deg, #1e1b4b, #312e81);
+  background: linear-gradient(135deg, #1e3a5f, #2c5364);
   color: #fff;
   padding: 14px 18px;
   font-weight: 600;
@@ -530,11 +590,11 @@ comments: false
   background: #f8fafc;
 }
 .tech-summary-table tbody tr:hover {
-  background: #eef2ff;
+  background: #eff6ff;
 }
 .tech-summary-table tbody td:first-child {
   font-weight: 600;
-  color: #1e1b4b;
+  color: #1e3a5f;
   white-space: nowrap;
 }
 .tech-summary-table tbody td:last-child {
@@ -545,10 +605,10 @@ comments: false
 .thanks-section {
   text-align: center;
   padding: 36px 30px;
-  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+  background: linear-gradient(135deg, #f8fafc, #eff6ff);
   border-radius: 16px;
   margin-top: 32px;
-  border: 1px solid #e0e7ff;
+  border: 1px solid #dbeafe;
 }
 .thanks-section p {
   color: #475569;
@@ -559,7 +619,7 @@ comments: false
 }
 .thanks-section .signature {
   font-weight: 700;
-  color: #1e1b4b;
+  color: #1e3a5f;
   font-size: 1.1em;
   margin-top: 16px;
 }
@@ -571,7 +631,7 @@ comments: false
   .advantage-cards { grid-template-columns: 1fr; }
   .project-grid { grid-template-columns: 1fr; }
   .timeline { padding-left: 24px; }
-  .faq-answer { padding-left: 0; }
+  .skill-name { min-width: 90px; font-size: 0.82em; }
 }
 </style>
 
@@ -580,13 +640,11 @@ comments: false
     <h1>王子亮</h1>
     <button class="pdf-download-btn" onclick="window.print()" title="点击后在打印对话框中选择另存为PDF">&#128196; 下载PDF</button>
   </div>
-  <div class="subtitle">AI Agent 开发工程师 · 专注 AI 应用与 Agent 工程落地</div>
+  <div class="subtitle">Unity全栈开发工程师</div>
   <div class="tag-list">
-    <span>AI Agent 工作流编排</span>
-    <span>Multi-Agent 多智能体协作</span>
-    <span>LangGraph / MCP 协议实践</span>
-    <span>深厚全栈工程落地能力</span>
-    <span>开源 Agent 平台 NineMinds 作者</span>
+    <span>15年+研发经验</span>
+    <span>游戏 / 社交 / AI</span>
+    <span>Unity全栈开发</span>
   </div>
 </div>
 
@@ -603,15 +661,15 @@ comments: false
   </div>
   <div class="info-item">
     <span class="label">工作年限</span>
-    <span class="value">15年全栈工程经验（专注 AI Agent 落地）</span>
+    <span class="value">15年+</span>
   </div>
   <div class="info-item">
     <span class="label">期望职位</span>
-    <span class="value">AI Agent 开发工程师</span>
+    <span class="value">游戏全栈开发工程师</span>
   </div>
   <div class="info-item">
     <span class="label">期望薪资</span>
-    <span class="value">15k - 20k</span>
+    <span class="value">20K - 30K</span>
   </div>
   <div class="info-item">
     <span class="label">期望城市</span>
@@ -619,7 +677,7 @@ comments: false
   </div>
 </div>
 
-<h2 class="section-title"><span class="icon">📞</span> 联系方式与开源项目</h2>
+<h2 class="section-title"><span class="icon">📞</span> 联系方式</h2>
 
 <div class="contact-grid">
   <div class="contact-item">
@@ -628,126 +686,69 @@ comments: false
   </div>
   <div class="contact-item">
     <div class="contact-icon">📧</div>
-    <div class="contact-text">870966629@qq.com</div>
+    <div class="contact-text">lional.king@gmail.com</div>
   </div>
   <div class="contact-item">
-    <div class="contact-icon">🤖</div>
-    <div class="contact-text"><a href="https://gitcode.com/lional1987/nine-minds" target="_blank">GitCode: nine-minds (Agent平台)</a></div>
+    <div class="contact-icon">💬</div>
+    <div class="contact-text">QQ: 870966629</div>
+  </div>
+  <div class="contact-item">
+    <div class="contact-icon">🔗</div>
+    <div class="contact-text"><a href="https://ibunnyteam.github.io" target="_blank">ibunnyteam.github.io</a></div>
   </div>
   <div class="contact-item">
     <div class="contact-icon">🐙</div>
     <div class="contact-text"><a href="https://github.com/3dseals" target="_blank">github.com/3dseals</a></div>
   </div>
-  <div class="contact-item">
-    <div class="contact-icon">🔗</div>
-    <div class="contact-text"><a href="https://ibunnyteam.github.io" target="_blank">ibunnyteam.github.io (技术博客)</a></div>
-  </div>
 </div>
 
-<div style="page-break-before: always; break-before: page;"></div>
+<br>
+<br>
+<br>
 <br>
 
-<h2 class="section-title"><span class="icon">⚡</span> 核心优势</h2>
+<h2 class="section-title"><span class="icon">💡</span> 核心优势</h2>
 
 <div class="advantage-cards">
   <div class="advantage-card">
-    <h4>🤖 AI Agent 编排与多智能体协同</h4>
+    <h4>🎯 全栈技术覆盖</h4>
     <ul>
-      <li><strong>Multi-Agent 团队协作</strong>：熟练掌握 Agent 任务拆解与组装，设计并实现包含 `chat`, `clarify`, `cowork`, `code`, `acp` 等多种运行模式的Agent协同机制</li>
-      <li><strong>LangGraph 与服务端编排</strong>：熟练运用 LangGraph 搭建无状态扩展的 Agent 编排集群，实现小模型路由分类、任务递归拆解与工具 Worker 协同</li>
-      <li><strong>MCP 协议与工具扩展</strong>：深度掌握 Model Context Protocol (MCP stdio/SSE/HTTP)，为 Agent 赋予系统 Shell、代码解析、浏览器控制等全套 Tooling 能力</li>
+      <li><strong>客户端</strong>：精通 Unity3D (C#) / Cocos Creator (TS/JS) / Cocos2d-x (C++)</li>
+      <li><strong>服务端</strong>：熟练运用 C# (.NET) / Golang / Java / Skynet / C++</li>
+      <li><strong>高并发 & 数据</strong>：MySQL / Redis / MongoDB / 分布式长连接 / 内存优化</li>
+      <li><strong>工程化</strong>：Git / Docker / CI/CD 自动化流水线 / 跨平台底层 SDK 接入</li>
     </ul>
   </div>
   <div class="advantage-card">
-    <h4>🎨 Agent 工作流与 Node-Graph 可视化</h4>
+    <h4>⚡ 核心架构与技术攻坚</h4>
     <ul>
-      <li><strong>可视化 Node-Graph 引擎</strong>：设计基于 React/Node-Graph 的工作流画布，支持将 Prompt、生图/生音、文本处理节点链接为端到端自动化流程</li>
-      <li><strong>AI 知识产品化打包</strong>：实现对话模板、绘图工作流、短剧流程与互动游戏流程的 JSON/ZIP 打包、在线试玩预览与一键还原机制</li>
-      <li><strong>CodeGraph 代码索引引擎</strong>：基于 Tree-sitter 搭建代码符号解析引擎，为代码类 Agent 提供精准的 Call Graph 探索与上下文提取</li>
+      <li><strong>网络与同步</strong>：主导自研高并发 WebSocket / Socket 实时对战与房间同步架构</li>
+      <li><strong>性能深度调优</strong>：深谙 DrawCall 优化、内存泄漏定位、对象池与包体瘦身</li>
+      <li><strong>热更新与底层</strong>：精通 华佗 (HybridCLR) / ILRuntime / Lua 热更引擎框架及 C++ 引擎绑定实战</li>
+      <li><strong>业务闭环能力</strong>：具备从底层引擎、核心玩法、高并发网络到运营落地的全链路开发能力</li>
     </ul>
   </div>
   <div class="advantage-card">
-    <h4>🛠️ 极其深厚的全栈工程交付底子</h4>
+    <h4>📊 业务与实战成果</h4>
     <ul>
-      <li><strong>端侧与高并发服务端全栈</strong>：精通 Electron / React / TypeScript / Node.js 客户端开发；熟练使用 Go / C# .NET / Java 构建高性能后端服务</li>
-      <li><strong>高可用与降级保护</strong>：具备大模型高峰期 Fallback 轻量模型降级、请求限流与熔断保护机制</li>
-      <li><strong>链路追踪 Trace Viewer</strong>：设计基于 W3C `traceparent` 的端到端 Trace Viewer，可视化渲染 Client/Server Task 分解树与节点耗时</li>
+      <li>累计参与商业化项目流水超 <strong>1亿+</strong>，单项目最高年流水 <strong>5000万+</strong></li>
+      <li>主导 <strong>10+</strong> 款游戏从 0 到 1 架构设计与全栈研发上线</li>
+      <li>品类覆盖广泛：<strong>3D虚拟社交对战 / SLG策略 / 商业手游 / H5小游戏矩阵</strong></li>
+      <li>具备敏锐的商业化意识与数值运营思维，保障线上系统高可用与低延时</li>
     </ul>
   </div>
   <div class="advantage-card">
-    <h4>🚀 极致的 AI 辅助开发效能</h4>
+    <h4>⚔️ Unity3D 核心战斗与 MMO 架构</h4>
     <ul>
-      <li>深度重度使用 <strong>Cursor / Claude Code / Codex / Antigravity</strong> 等全套 AI 编程工具链，日常代码交付效率达到传统开发者的 <strong>300%+</strong></li>
-      <li>具备敏锐的 AI 前沿技术觉察力，能够迅速将学术界与开源社区最新的 Agent 论文与框架成果转化为生产力代码</li>
+      <li><strong>战斗模块研发</strong>：深度掌握 MMORPG 核心战斗系统，包括状态机 (FSM)、技能管线 (CD/弹道/判定/Buff结算) 及动作打击感与硬直反馈</li>
+      <li><strong>MMORPG 状态同步</strong>：精通高频状态同步 (State Sync)、航位推测与插值平滑算法，设计弱网位置预测与抗抖动机制，彻底消除位移拉扯</li>
+      <li><strong>Unity3D 引擎底蕴</strong>：精通 C# 底层机制与 GC 深度优化，熟练掌握 URP 管线、DrawCall 优化及内存治理</li>
     </ul>
   </div>
-</div>
-
-<h2 class="section-title"><span class="icon">🎮</span> 重点项目经历</h2>
-
-<div class="project-grid">
-
-<div class="project-card featured">
-  <span class="project-year">2025 - 至今</span>
-  <div class="project-name">
-    <a href="https://gitcode.com/lional1987/nine-minds" target="_blank">NineMinds</a>
-  </div>
-  <div class="project-meta">
-    <span class="type">AI Native Agent 平台</span>
-    <span class="role">个人开发练手 & 独立研发</span>
-    <span class="highlight-tag">🌟 个人研究开源项目</span>
-  </div>
-  <ul class="tech-list">
-    <li><strong>项目定位</strong>：个人研究与实操开发的 AI 原生 Agent 知识创作与交付平台，探索多智能体协作、工作流编排与端到端交付。</li>
-    <li><strong>LangGraph 服务端高并发集群</strong>：设计基于 Go API Gateway + Kafka 消息队列 + LangGraph 编排集群服务端架构。基于 Kafka 积压量实现 LangGraph Worker 动态扩缩容。</li>
-    <li><strong>模型 Fallback 降级与全链路 Trace</strong>：设计二级消息队列，在高并发压力下实现大模型动态降级至轻量模型（如 `gpt-4o-mini`）；开发 Trace Viewer，可视化呈现端到端 Agent 拆解树与执行耗时。</li>
-  </ul>
-</div>
-
-<div class="project-card">
-  <span class="project-year">2024 - 至今</span>
-  <div class="project-name">四川循东 — 高并发多租户 SaaS 小游戏聚合分发平台</div>
-  <div class="project-meta">
-    <span class="type">高并发 SaaS 平台</span>
-    <span class="role">服务端/全栈开发工程师</span>
-  </div>
-  <ul class="tech-list">
-    <li><strong>多租户 SaaS 架构</strong>：基于 Java Spring Boot / Spring Cloud 构建多租户 SaaS 架构，支持多品类 H5 小游戏快速接入、动态路由与隔离分发。</li>
-    <li><strong>Seata 分布式事务与并发订单</strong>：在平台充值、秒杀与虚拟资产交易场景引入 Seata (AT/TCC) 分布式事务框架，保障高并发多租户订单数据一致性。</li>
-    <li><strong>高吞吐消息队列与数据埋点</strong>：基于 RabbitMQ / Redis 搭建高吞吐埋点数据采集与实时分析管道，支撑海量玩家实时数据分析。</li>
-    <li><strong>项目进度与交付管控</strong>：主导 CI/CD 流水线搭建与敏捷任务拆解，管控风险节点，确保产品矩阵高质量按期交付。</li>
-  </ul>
-</div>
-
-<div class="project-card">
-  <span class="project-year">2023 - 2024</span>
-  <div class="project-name">麓卓互动 — Party Yoo 3D 虚拟社交 AI 直播互动平台</div>
-  <div class="project-meta">
-    <span class="type">实时社交 / 微服务架构</span>
-    <span class="role">服务端开发工程师</span>
-  </div>
-  <ul class="tech-list">
-    <li><strong>ET 框架微服务架构</strong>：基于 C# ET 框架 (ECS 架构) 构建高并发分布式微服务，支撑直播间实时多人对战匹配与低延迟长连接。</li>
-    <li><strong>消息队列与数据管道</strong>：引入 RabbitMQ 支撑高并发事件削峰与百万级社交互动数据支撑。</li>
-  </ul>
-</div>
-
-<div class="project-card">
-  <span class="project-year">2013 - 2023</span>
-  <div class="project-name">成都黑骑士网络 — 核心项目全栈研发与技术积累</div>
-  <div class="project-meta">
-    <span class="type">全栈研发 / Golang / 客户端</span>
-    <span class="role">客户端/服务端全栈开发工程师</span>
-  </div>
-  <ul class="tech-list">
-    <li><strong>Golang 高性能组件</strong>：自研 Worker Pool 协程池组件、Redis 级联缓存组件与令牌桶防刷限流组件。</li>
-    <li><strong>全栈开发与长连接同步</strong>：主导《Survive 活下去》（累计流水 5000 万+）等多款自研项目的 Node.js/Golang 服务端与 Unity/Cocos 客户端研发，积累了极其扎实的底座工程能力。</li>
-  </ul>
-</div>
-
 </div>
 
 <br>
+
 
 <h2 class="section-title"><span class="icon">💼</span> 工作经历</h2>
 
@@ -756,72 +757,279 @@ comments: false
 <div class="timeline-item">
   <span class="period">2024.07 - 至今</span>
   <div class="company">四川循东科技有限公司</div>
-  <div class="position">资深服务端开发工程师</div>
-  <div class="company-desc">专注于小游戏聚合分发与 H5 虚拟娱乐平台研发</div>
+  <div class="position">游戏全栈开发工程师</div>
+  <div class="company-desc">专注于AI驱动的虚拟社交和数字娱乐领域的创新科技公司（Cocos Creator + Node.js）</div>
   <ul class="duties">
-    <li><strong>高并发 SaaS 架构与多租户隔离</strong>：负责后端架构选型，基于 Spring Boot / Spring Cloud 搭建多租户 SaaS 服务体系，实现租户数据、权限与动态路由的高效隔离。</li>
-    <li><strong>分布式事务与高并发订单</strong>：在充值、秒杀与虚拟资产交易场景引入 Seata (AT/TCC 模式) 分布式事务框架，保障订单数据一致性，结合 RabbitMQ / Redis 实现削峰填谷。</li>
-    <li><strong>敏捷开发与交付管控</strong>：制定敏捷开发流程与 WBS 任务拆解，管控里程碑节点与技术攻关，保障多游戏矩阵平稳按期上线。</li>
+    <li>负责基于 Cocos Creator 的小游戏平台架构设计与全栈研发，涵盖多种H5小游戏、Block等休闲游戏品类</li>
+    <li>负责核心游戏逻辑、客户端交互（Cocos Creator / TypeScript）及服务端接口设计与开发</li>
+    <li>深度实践AI辅助编程（Cursor/Claude Code等），实现高质量敏捷交付与效率跃升</li>
+    <li>构建小游戏聚合分发平台，打通运营、数据分析与用户增长链路</li>
   </ul>
 </div>
 
 <div class="timeline-item">
   <span class="period">2023.03 - 2024.06</span>
   <div class="company">麓卓互动科技有限公司（成都分公司）</div>
-  <div class="position">服务端开发工程师</div>
-  <div class="company-desc">专注于 AI 社交与元宇宙领域，打造 3D 虚拟社交应用《Party Yoo》</div>
+  <div class="position">游戏全栈开发工程师</div>
+  <div class="company-desc">专注于AI社交和元宇宙领域，打造3D虚拟社交直播游戏应用《Party Yoo》（Unity3D + C#）</div>
   <ul class="duties">
-    <li><strong>实时通信与分布式系统研发</strong>：基于 ET 框架搭建高并发长连接微服务架构，保障高并发实时长连接状态同步。</li>
+    <li>负责3D虚拟社交直播游戏应用的游戏模块（Unity3D客户端）及服务端架构设计与研发</li>
+    <li>设计并实现直播间实时互动游戏系统，支持主播与观众的多人实时对战互动</li>
+    <li>负责高并发网络通信、状态同步与游戏核心逻辑开发</li>
+    <li>保障产品在印尼等海外市场的稳定运行与持续迭代</li>
   </ul>
 </div>
 
 <div class="timeline-item">
   <span class="period">2013.05 - 2023.02</span>
   <div class="company">成都黑骑士网络科技</div>
-  <div class="position">客户端/服务端全栈开发工程师</div>
-  <div class="company-desc">创业型手游与高并发系统研发公司，自研上线游戏流水累计超 5000 万</div>
+  <div class="position">游戏全栈开发工程师</div>
+  <div class="company-desc">创业型手游公司，拥有多款上线游戏</div>
   <ul class="duties">
-    <li><strong>全栈工程研发与自研组件库</strong>：基于 Golang、Node.js、C++ 完成高性能组件研发，并负责多款核心上线产品的全栈代码落地。</li>
+    <li>主导多款商业手游全栈开发（Unity3D客户端 + Golang服务端架构）</li>
+    <li>负责游戏核心架构设计、底层系统封装、性能深度优化与线上运维</li>
+    <li><span class="highlight">核心项目流水累计超5000万</span></li>
   </ul>
 </div>
 
 <div class="timeline-item">
-  <span class="period">2010.07 - 2013.04</span>
-  <div class="company">上海慕和网络 / TCL 通讯</div>
-  <div class="position">软件开发工程师</div>
-  <div class="company-desc">早年在移动端、系统底层与游戏引擎方向的工程积累</div>
+  <span class="period">2011.12 - 2013.04</span>
+  <div class="company">上海慕和网络</div>
+  <div class="position">游戏开发工程师</div>
+  <div class="company-desc">手游公司，2013年被凤凰传媒收购，月流水达1500万</div>
   <ul class="duties">
-    <li>参与 Android 系统核心模块定制开发与游戏支付 SDK 架构设计，打下扎实的基础工程功底。</li>
+    <li>参与多款SLG游戏开发</li>
+    <li>参与游戏引擎研发与平台SDK研发</li>
+    <li>公司从50人发展到400人的高速成长期</li>
+  </ul>
+</div>
+
+<div class="timeline-item">
+  <span class="period">2010.07 - 2011.11</span>
+  <div class="company">TCL通讯</div>
+  <div class="position">Android开发工程师</div>
+  <div class="company-desc">专注于Android手机研发，与阿尔卡特、黑莓等厂商合作</div>
+  <ul class="duties">
+    <li>负责Contacts、Launcher等核心模块开发</li>
   </ul>
 </div>
 
 </div>
 
-<h2 class="section-title"><span class="icon">📚</span> 技术栈总结</h2>
+<h2 class="section-title"><span class="icon">🎮</span> 项目经历</h2>
 
-<table class="tech-summary-table">
-<thead>
-<tr><th>领域</th><th>技术栈 & 框架能力</th></tr>
-</thead>
-<tbody>
-<tr><td>AI Agent & 大模型生态</td><td>Multi-Agent 协作 / LangGraph / MCP 协议 / Prompt Engineering / CodeGraph (Tree-sitter) / RAG / Node-Graph 编辑器</td></tr>
-<tr><td>端侧与全栈开发</td><td>TypeScript / Electron / React 19 / Vite / HTML5 / TailwindCSS / Node.js</td></tr>
-<tr><td>后端 & 编程语言</td><td>Go / Python / C# (.NET 10 AOT) / Java (Spring Boot) / C++ / SQL / Protocol Buffers</td></tr>
-<tr><td>高并发与中间件</td><td>RabbitMQ / Kafka / Redis / SQLite (Native) / MinIO / PostgreSQL / Go API Gateway</td></tr>
-<tr><td>AI 效能工具与 DevOps</td><td>Cursor / Claude Code / Codex / Antigravity / Docker / Git / CI/CD / Trace Viewer 调试</td></tr>
-</tbody>
-</table>
+<div class="project-grid">
+
+<div class="project-card">
+  <span class="project-year">2024 - 至今</span>
+  <div class="project-name">休闲游戏平台 & H5游戏矩阵</div>
+  <div class="project-meta">
+    <span class="type">休闲游戏平台 / 休闲游戏</span>
+    <span class="role">游戏全栈开发</span>
+  </div>
+  <ul class="tech-list">
+    <li><strong>技术栈</strong>：Cocos Creator (TypeScript) + React.js + Node.js + Redis</li>
+    <li><strong>核心职责</strong>：主导小游戏聚合分发平台架构设计，以及多款休闲小游戏（Block消除、益智解谜等）全栈研发。</li>
+    <li><strong>性能调优与攻坚</strong>：
+      <ul>
+        <li>首包加载优化：采用分包加载策略、动态合图（AutoAtlas）与远程资源按需加载，首屏启动耗时由 4.2s 降至 1s 内。</li>
+        <li>渲染与GC调优：设计通用对象池管理器，消除频繁实例化产生的内存抖动，DrawCall 降低 45%，全机型稳定 60 FPS。</li>
+      </ul>
+    </li>
+    <li><strong>AI提效实践</strong>：深度结合 Cursor/Claude Code 进行模块代码与单元测试生成，迭代效率提升 50%+。</li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <span class="project-year">2023 - 2024</span>
+  <div class="project-name">Party Yoo</div>
+  <div class="project-meta">
+    <span class="type">3D虚拟社交直播游戏</span>
+    <span class="role">全栈开发工程师</span>
+  </div>
+  <ul class="tech-list">
+    <li><strong>技术栈</strong>：Unity3D (C#) + C# (.NET) + WebSocket + Redis</li>
+    <li><strong>核心职责</strong>：负责 3D 虚拟人直播间实时互动游戏模块（Unity3D）及高并发服务端（C#）全栈开发。</li>
+    <li><strong>高并发与网络攻坚</strong>：
+      <ul>
+        <li>实时状态同步：设计基于 C# 的高并发 WebSocket 游戏房间系统，支持主播与上千观众毫秒级对战互动。</li>
+        <li>弱网与断线重连：针对海外（印尼等）弱网环境，设计客户端状态平滑插值与快速重连补偿机制，网络卡顿率降低 50%。</li>
+      </ul>
+    </li>
+    <li><strong>客户端渲染</strong>：优化 Unity3D 角色骨骼动画合批与 UI 层级，有效控制移动端发热与显存占用。</li>
+  </ul>
+</div>
 
 <br>
-<br>
 
-<div class="thanks-section">
-  <h2 style="color: #1e1b4b; margin-bottom: 16px;">🙏 致谢</h2>
-  <p>感谢您阅读我的简历。</p>
-  <p>15 年深厚的全栈工程积累与对 AI Agent 技术的无限热忱，是我转型为 AI Agent 开发工程师的最强底气。我不仅具备把开源框架与大模型能力快速转化为高质量生产力代码的能力，更能凭借扎实的系统设计眼光规避 Agent 落地过程中的各类工程陷阱。</p>
-  <p>期望能以开发工程师的角色加入团队，专注技术落地，共同打造下一代优秀的 AI Agent 产品！</p>
-  <div class="signature">— 王子亮</div>
+<div class="project-card">
+  <span class="project-year">2020</span>
+  <div class="project-name">无尽之界</div>
+  <div class="project-meta">
+    <span class="type">沙盒冒险MMO</span>
+    <span class="role">Unity游戏开发</span>
+  </div>
+  <ul class="tech-list">
+    <li><strong>技术栈</strong>：Unity3D (C#) + Golang + Redis + RPC通信</li>
+    <li><strong>核心职责</strong>：负责客户端核心战斗系统、表现层渲染与服务端全栈开发。</li>
+    <li><strong>核心攻坚与解决问题</strong>：
+      <ul>
+        <li>双端一致性与防作弊：采用客户端逐帧推演渲染 + 服务端关键帧轻量校验与离线收益推导，彻底杜绝篡改作弊。</li>
+        <li>高吞吐并发设计：利用 Golang 异步机制配合 Redis 内存级高频 IO 缓存，单服支撑数万玩家在线高频结算。</li>
+      </ul>
+    </li>
+    <li><strong>Shader定制</strong>：编写专属轻量级 Shader 与打击光影特效，兼顾低端机流畅度与视觉打击感。</li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <span class="project-year">2019</span>
+  <div class="project-name">三国诸侯纷争</div>
+  <div class="project-meta">
+    <span class="type">SLG策略游戏</span>
+    <span class="role">全栈开发工程师</span>
+    <span class="revenue">💰 200万+/半年</span>
+  </div>
+  <ul class="tech-list">
+    <li><strong>技术栈</strong>：Unity3D + ILRuntime + Java NIO + Protobuf</li>
+    <li><strong>核心职责</strong>：负责游戏热更新底层框架、大地图视野同步与网络通信层开发。</li>
+    <li><strong>核心攻坚与解决问题</strong>：
+      <ul>
+        <li>ILRuntime热更架构：基于纯 C# 构建跨平台热更体系，实现业务逻辑与资源全量热更，保障线上事故 0 停机修复。</li>
+        <li>大地图视野与AOI算法：设计九宫格视野同步与视锥体剔除，大幅降低同屏数千单位渲染与网络同步压力。</li>
+        <li>协议压缩：采用 Protobuf 二进制协议，网络包体吞吐量优化 60% 以上。</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <span class="project-year">2017</span>
+  <div class="project-name">Survive 活下去</div>
+  <div class="project-meta">
+    <span class="type">丧尸生存角色扮演</span>
+    <span class="role">客户端开发工程师</span>
+    <span class="revenue">💰 500万+/年</span>
+  </div>
+  <ul class="tech-list">
+    <li><strong>技术栈</strong>：Cocos Creator (JS/TS) + Socket / HTTP + 本地持久化</li>
+    <li><strong>核心职责</strong>：负责客户端整体架构搭建、核心生存机制实现、网络通信层封装与性能调优。</li>
+    <li><strong>核心攻坚与解决问题</strong>：
+      <ul>
+        <li>复杂事件流与数据驱动：构建数据驱动的生存事件引擎，高效承载数十万字剧情与庞大数值系统。</li>
+        <li>内存管理与防作弊：针对长生命周期游戏排查修复多处闭包与纹理泄漏；实现本地存档动态 AES 加密校验。</li>
+        <li>双通道网络容灾：封装 HTTP/Socket 双通道网络通信，支持弱网智能重试与离线消息队列。</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <span class="project-year">2016</span>
+  <div class="project-name">沙巴克传奇</div>
+  <div class="project-meta">
+    <span class="type">传奇类MMORPG</span>
+    <span class="role">全栈开发</span>
+    <span class="revenue">💰 500万+/半年</span>
+  </div>
+  <ul class="tech-list">
+    <li><strong>技术栈</strong>：Cocos2d-Lua + C++ + Lua + PHP</li>
+    <li><strong>核心职责</strong>：负责客户端核心战斗表现、同屏渲染优化与服务端活动热更系统开发。</li>
+    <li><strong>同屏渲染与热更攻坚</strong>：
+      <ul>
+        <li>万人同屏渲染优化：采用动态合图与同类角色动作缓存共享机制，主城与攻城战同屏渲染效率提升 80%。</li>
+        <li>服务端动态热更：利用 C++ 底层嵌入 Lua 虚拟机，实现在线动态热更新运营活动与数值，无需重启服务器。</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <span class="project-year">2014</span>
+  <div class="project-name">魔卡世纪</div>
+  <div class="project-meta">
+    <span class="type">即时对战卡牌</span>
+    <span class="role">客户端主程</span>
+  </div>
+  <ul class="tech-list">
+    <li><strong>技术栈</strong>：Cocos2d-x (C++) + OpenGL ES</li>
+    <li><strong>核心职责</strong>：负责首款原创卡牌手游的客户端底层搭建与核心战斗逻辑实现（加拿大 AppStore 首发上线）。</li>
+    <li><strong>底层技术攻坚</strong>：
+      <ul>
+        <li>底层组件适配：自主重构引擎底层多语言文本排版、动态灰度 Shader、软键盘输入与骨骼动画播放组件。</li>
+        <li>纹理内存优化：采用 PVRTC/ETC 格式深度压缩贴图，显存占用降低 50% 以上。</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <span class="project-year">2012</span>
+  <div class="project-name">Ejecta-X 跨平台游戏引擎</div>
+  <div class="project-meta">
+    <span class="type">开源跨平台引擎</span>
+    <span class="role">核心底层开发</span>
+  </div>
+  <ul class="tech-list">
+    <li><strong>技术栈</strong>：C++ + OpenGL ES + JavaScript (V8/SpiderMonkey)</li>
+    <li><strong>核心职责</strong>：负责将 iOS 端 Ejecta 引擎移植重构至 Android 平台，实现跨平台 H5 原生加速。</li>
+    <li><strong>底层技术攻坚</strong>：
+      <ul>
+        <li>C++ 绑定与渲染加速：将 JS Canvas API 映射绑定至 C++ 底层，直接调用 OpenGL ES 进行管线渲染，运行性能提升 3-5 倍。</li>
+        <li>跨端调试：支持在 Chrome 中直接断点调试 JS 代码，一键打包发布至移动端原生运行。</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <span class="project-year">2010</span>
+  <div class="project-name">阿尔卡特 & 黑莓手机研发</div>
+  <div class="project-meta">
+    <span class="type">Android 系统级开发</span>
+    <span class="role">核心模块开发</span>
+  </div>
+  <ul class="tech-list">
+    <li><strong>技术栈</strong>：Android Framework / Java / C / Linux Kernel</li>
+    <li><strong>核心职责</strong>：负责国际品牌（Alcatel / BlackBerry）定制机 Launcher 与 Contacts 核心系统应用开发。</li>
+    <li><strong>底层沉淀</strong>：深入理解 Android 系统启动流程、Handler 机制、Binder IPC 通信与渲染管线，奠定深厚底层功底。</li>
+  </ul>
+</div>
+
 </div>
 
 <br>
 <br>
+<br>
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+<h2 class="section-title"><span class="icon">📚</span> 技术总结</h2>
+
+<table class="tech-summary-table">
+<thead>
+<tr><th>技术领域</th><th>深度掌握与实践技术栈</th></tr>
+</thead>
+<tbody>
+<tr><td>游戏客户端</td><td><strong>Unity3D (C#)</strong>、<strong>Cocos Creator (TypeScript/JavaScript)</strong>、Cocos2d-x (C++)、<strong>HybridCLR (华佗)</strong> / ILRuntime、Shader</td></tr>
+<tr><td>服务端架构</td><td><strong>C# (.NET)</strong>、<strong>Node.js</strong>、<strong>Go</strong>、Java (Spring Cloud)、Skynet、C++、高并发分布式长连接</td></tr>
+<tr><td>数据与缓存</td><td><strong>MySQL</strong> (索引优化/分库分表)、<strong>Redis</strong> (高频IO/分布式锁/缓存设计)、MongoDB、Memcached</td></tr>
+<tr><td>网络与协议</td><td><strong>WebSocket</strong> (房间状态同步)、<strong>Socket</strong> (TCP/UDP)、Protobuf、HTTP/HTTPS、RPC 通信</td></tr>
+<tr><td>工程化 & DevOps</td><td>Git、Docker、Jenkins CI/CD 自动化流水线、对象池管理、内存分析 (Profiler/Memory Profiler)</td></tr>
+<tr><td>AI 辅助开发</td><td><strong>Cursor / Claude Code / Codex / Antigravity</strong> (AI Agent 极速编程落地，效能提升 50%+)</td></tr>
+<tr><td>平台与底层</td><td>AppStore、Google Play、微信/抖音小游戏平台接入、Android NDK/JNI 底层绑定、聚合支付 SDK</td></tr>
+</tbody>
+</table>
+
+<div class="thanks-section">
+  <h2 style="color: #1e3a5f; margin-bottom: 12px;">🙏 致谢</h2>
+  <p>感谢您阅读我的简历。15年+全栈研发深耕，热爱技术，期待有机会与您携手共创价值！</p>
+  <div class="signature">— 王子亮</div>
+</div>
